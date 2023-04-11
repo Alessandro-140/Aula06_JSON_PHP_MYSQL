@@ -1,0 +1,5 @@
+Após atualizar os arquivos, não esquecer de transferir os arquivos 
+atualizados para o servidor XAMPP, colar na pasta htdocs, dentro do DESKTOP
+não roda.
+
+OBS: Tenho que criar a pasta e os arquivos dentro do htdocs no XAMPP.
