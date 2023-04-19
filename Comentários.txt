@@ -3,3 +3,10 @@ atualizados para o servidor XAMPP, colar na pasta htdocs, dentro do DESKTOP
 não roda.
 
 OBS: Tenho que criar a pasta e os arquivos dentro do htdocs no XAMPP.
+
+// Tenho que startar o XAMPP control panel, startar o apache, startar o mysql, startar o admin.
+// Clico no admin, e vai abrir o phpMyAdmin onde vou criar um banco de dados deste modo:
+1º Passo
+Vou em base de dados e renomeio um nome para o banco, no meu exemplo "loja".
+// Vou em "SQL", criar tabela ou em estrutura, no meu exemplo a tabela chama-se "produto" e clico em "executar". 
+// Vou criar o primeiro campo da tabela que será o "id" e marco a coluna A_I que é auto inclemento e seto como Prymari.
