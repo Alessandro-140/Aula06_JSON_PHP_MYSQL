@@ -18,6 +18,10 @@ function ler(){
                 conteudo += "   <td>" + prod.nome + "</td>";
                 conteudo += "   <td> " + prod.preco + "</td>";
                 conteudo += "   </tr> ";
+
+function ler() {
+    alert("Page is loaded = A página está carregada");
+}
                 
             });
 
@@ -47,17 +51,18 @@ function adicionar(){
    
 
     };
+    
+
     url = "servidor.php?cadastrar&nome=" + $("#txtNome").val() +
     "&preco=" + $("#txtPreco").val();
 
 
     xhttp.open("GET", url, true);
     xhttp.send();
-
+    
+    
   
 };
-function myFunction() {
-    alert("Page is loaded = A página está carregada");
-}
+
 
 
