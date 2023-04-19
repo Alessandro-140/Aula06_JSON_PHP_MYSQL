@@ -11,10 +11,17 @@
     
     
 </head>
-<body onload="ler()">
+
+<!-- Este onload vai carregar a função implementada no arquivo script.js do javascrip-->
+<body onload="ler()", onload="myFunction()">
+
+    <h1>Hello World!</h1>
+
 
 <!--SHIFT + ALT + SETA PARA BAIXO REPLICA LINHA
     ==> SHIFT + TAB serve para dar espaço em várias linhas-->
+
+    <!--Estes inputs abaixo são campos que serão criados no navegador-->
     <input type="text"  id="txtNome" placeholder="Nome do produto">
     <input type="text"  id="txtPreco" placeholder="Preço: ">
     <button onclick="adicionar()">Adicionar</button>
@@ -23,6 +30,7 @@
 <!--Não esquecer de acrescentar # no arquivo scripts.js-->
     <div id="divProdutos"></div>
 
+    
     <script src="script.js"></script>
     
 </body>

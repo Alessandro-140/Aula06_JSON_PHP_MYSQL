@@ -35,6 +35,7 @@ function ler(){
 
 
 function adicionar(){
+   
     var xhttp = new XMLHttpRequest();
 
     xhttp.onreadystatechange = function(){
@@ -42,6 +43,9 @@ function adicionar(){
             ler()
 
         }
+
+   
+
     };
     url = "servidor.php?cadastrar&nome=" + $("#txtNome").val() +
     "&preco=" + $("#txtPreco").val();
@@ -49,4 +53,11 @@ function adicionar(){
 
     xhttp.open("GET", url, true);
     xhttp.send();
+
+  
+};
+function myFunction() {
+    alert("Page is loaded = A página está carregada");
 }
+
+
